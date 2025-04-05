@@ -1,4 +1,4 @@
-package org.vinisolon.cucumber.example.app.exception.dto;
+package org.vinisolon.cucumber.example.app.rest.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.ToString;

@@ -1,18 +1,16 @@
-package org.vinisolon.cucumber.example.app.exception.dto;
+package org.vinisolon.cucumber.example.app.rest.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.Data;
 import lombok.Setter;
-import lombok.ToString;
 
 import java.time.LocalDateTime;
 import java.util.List;
 
 @Data
 @Builder
-@ToString
 public class MyValidationResponse {
 
     @Builder.Default

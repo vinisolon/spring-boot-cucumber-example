@@ -1,4 +1,4 @@
-package org.vinisolon.cucumber.example.app.exception.enums;
+package org.vinisolon.cucumber.example.app.enums;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
