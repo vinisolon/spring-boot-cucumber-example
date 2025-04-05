@@ -6,8 +6,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.vinisolon.cucumber.example.app.mapper.MyMapper;
 import org.vinisolon.cucumber.example.app.repository.MyRepository;
-import org.vinisolon.cucumber.example.app.rest.dto.MyRequest;
-import org.vinisolon.cucumber.example.app.rest.dto.MyResponse;
+import org.vinisolon.cucumber.example.app.dto.MyRequest;
+import org.vinisolon.cucumber.example.app.dto.MyResponse;
 
 import java.util.ArrayList;
 import java.util.List;

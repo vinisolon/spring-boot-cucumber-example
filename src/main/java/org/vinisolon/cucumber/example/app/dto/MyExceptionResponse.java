@@ -1,4 +1,4 @@
-package org.vinisolon.cucumber.example.app.rest.dto;
+package org.vinisolon.cucumber.example.app.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AccessLevel;

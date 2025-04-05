@@ -4,8 +4,8 @@ import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.MappingConstants;
 import org.vinisolon.cucumber.example.app.entity.MyEntity;
-import org.vinisolon.cucumber.example.app.rest.dto.MyRequest;
-import org.vinisolon.cucumber.example.app.rest.dto.MyResponse;
+import org.vinisolon.cucumber.example.app.dto.MyRequest;
+import org.vinisolon.cucumber.example.app.dto.MyResponse;
 
 @Mapper(componentModel = MappingConstants.ComponentModel.SPRING)
 public interface MyMapper {

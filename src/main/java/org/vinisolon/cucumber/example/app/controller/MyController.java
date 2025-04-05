@@ -1,4 +1,4 @@
-package org.vinisolon.cucumber.example.app.rest.controller;
+package org.vinisolon.cucumber.example.app.controller;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.vinisolon.cucumber.example.app.rest.dto.MyRequest;
-import org.vinisolon.cucumber.example.app.rest.dto.MyResponse;
+import org.vinisolon.cucumber.example.app.dto.MyRequest;
+import org.vinisolon.cucumber.example.app.dto.MyResponse;
 import org.vinisolon.cucumber.example.app.service.MyService;
 
 import java.util.List;

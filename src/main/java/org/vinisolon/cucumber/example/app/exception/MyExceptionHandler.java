@@ -5,12 +5,12 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
-import org.vinisolon.cucumber.example.app.rest.dto.MyExceptionResponse;
-import org.vinisolon.cucumber.example.app.rest.dto.MyFieldValidationResponse;
-import org.vinisolon.cucumber.example.app.rest.dto.MyValidationResponse;
+import org.vinisolon.cucumber.example.app.dto.MyExceptionResponse;
+import org.vinisolon.cucumber.example.app.dto.MyFieldValidationResponse;
+import org.vinisolon.cucumber.example.app.dto.MyValidationResponse;
 
-import static org.vinisolon.cucumber.example.app.rest.dto.MyExceptionResponse.buildMyExceptionResponse;
-import static org.vinisolon.cucumber.example.app.rest.dto.MyValidationResponse.buildValidationResponse;
+import static org.vinisolon.cucumber.example.app.dto.MyExceptionResponse.buildMyExceptionResponse;
+import static org.vinisolon.cucumber.example.app.dto.MyValidationResponse.buildValidationResponse;
 
 @RestControllerAdvice
 public class MyExceptionHandler {
